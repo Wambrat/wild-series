@@ -7,13 +7,23 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Response;
 
+/**
 
+ * @Route("/program", name="program_")
+
+ */
 class ProgramController extends AbstractController
 
 {
     /**
 
-     * @Route("/program/", name="program_index")
+     * Show all rows from Program’s entity
+
+     *
+
+     * @Route("/", name="index")
+
+     * @return Response A response instance
 
      */
     public function index(): Response
@@ -33,7 +43,7 @@ class ProgramController extends AbstractController
 
      *
 
-     * @Route("/show/{id<^[0-9]+$>}", name="program_show")
+     * @Route("/show/{id<^[0-9]+$>}", name="show")
 
      * @return Response
 

@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}All Categories{% endblock %}
+
+{% block body %}
+    <h1>Toutes vos categories préférées !</h1>
+    <div class="row">
+    {% for category in categories %}
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">{{ loop.index }} / {{ category.name }}</h2>
+                    <p class="card-text">{{ category.name }}</p>
+                    {# Lien vers la fiche de la série : #}
+                    <a href="{{ path("category_show", { id: category.id }) }}" class="btn btn-primary">Voir les programmes associés</a>
+                </div>    
+            </div>
+        </div>    
+    {% else %}
+        Aucune série trouvée.
+    {% endfor %}
+    </div>
+    <a href="{{ path('default_index') }}">
+        Retour à l'accueil
+    </a>
+{% endblock %}
