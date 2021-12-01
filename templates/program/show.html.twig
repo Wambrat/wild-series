@@ -22,7 +22,26 @@
 
     </div>
 
-
+    <div class="accordion" id="accordionExample">
+    {% for season in programSeasons %}
+        {% set i = ( i | default(0) ) + 1 %}
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Saison {{ i }}
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                {{ season.description }}
+            </div>
+          </div>
+        </div>
+    {% else %}
+        <div>
+            il n'y a actuellement aucune saison d'enregistrée dans la base de donnéé
+        </div>    
+    {% endfor %}
     <a href="{{ path('program_index') }}">
 
         Retour à la liste des programmes
