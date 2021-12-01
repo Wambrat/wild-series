@@ -7,7 +7,7 @@ use App\Entity\Season;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 
-class SeasonFeatures extends Fixture
+class SeasonFixtures extends Fixture
 {
     private const SEASON = [
         [

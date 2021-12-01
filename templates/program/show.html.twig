@@ -22,16 +22,16 @@
 
     </div>
 
-    <div class="accordion" id="accordionExample">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
     {% for season in programSeasons %}
         {% set i = ( i | default(0) ) + 1 %}
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{ i }}" aria-expanded="false" aria-controls="flush-collapse{{ i }}">
                 Saison {{ i }}
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div id="flush-collapse{{ i }}" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
                 {{ season.description }}
             </div>
