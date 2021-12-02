@@ -5,9 +5,10 @@ namespace App\DataFixtures;
 use App\Entity\Category;
 use App\Entity\Program;
 use Doctrine\Bundle\FixturesBundle\Fixture;
+use Doctrine\Common\DataFixtures\DependentFixtureInterface;
 use Doctrine\Persistence\ObjectManager;
 
-class ProgramFixtures extends Fixture
+class ProgramFixtures extends Fixture implements DependentFixtureInterface
 {
     private const PROGRAM = [
         [
@@ -88,5 +89,12 @@ class ProgramFixtures extends Fixture
         }  
     
         $manager->flush();
+    }
+
+    public function getDependencies()
+    {
+        return [
+            CategoryFixtures::class,
+        ];
     }
 }

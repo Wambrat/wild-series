@@ -5,9 +5,10 @@ namespace App\DataFixtures;
 use App\Entity\Program;
 use App\Entity\Season;
 use Doctrine\Bundle\FixturesBundle\Fixture;
+use Doctrine\Common\DataFixtures\DependentFixtureInterface;
 use Doctrine\Persistence\ObjectManager;
 
-class SeasonFixtures extends Fixture
+class SeasonFixtures extends Fixture implements DependentFixtureInterface
 {
     private const SEASON = [
         [
@@ -102,5 +103,13 @@ class SeasonFixtures extends Fixture
         }  
     
         $manager->flush();
+    }
+
+    public function getDependencies()
+    {
+        return [
+            CategoryFixtures::class,
+            ProgramFixtures::class,
+        ];
     }
 }
