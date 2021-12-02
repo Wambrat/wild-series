@@ -74,7 +74,7 @@ class ProgramController extends AbstractController
 
         if (!$program) {
             throw $this->createNotFoundException(
-                'No program link with this id : ' . $program->getId() . 'found in season\'s table.'
+                'No program link with this id : ' . $season->getId() . 'found in season\'s table.'
             );
         }
         $seasonEpisodes = $this->getDoctrine()
