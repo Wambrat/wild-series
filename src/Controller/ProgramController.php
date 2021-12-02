@@ -9,6 +9,7 @@ use Doctrine\ORM\Mapping\Id;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Response;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 
 /**
 
@@ -67,6 +68,7 @@ class ProgramController extends AbstractController
 
     /**
      * @Route("/{programId}/season/{id<^[0-9]+$>}", name="show_season_show")
+     * @ParamConverter("programId", class="App\Entity\Program", options={"mapping": {"programId": "id"}})
      */
     public function season(Season $season): Response
     {
@@ -90,6 +92,8 @@ class ProgramController extends AbstractController
     }
     /**
      * @Route("/{programId}/season/{seasonId}/episode/{id<^[0-9]+$>}", name="show_season_show_episode_show")
+     * @ParamConverter("programId", class="App\Entity\Program", options={"mapping": {"programId": "id"}})
+     * @ParamConverter("seasonId", class="App\Entity\Season", options={"mapping": {"seasonId": "id"}})
      */
     public function episode(Episode $episode): Response
     {
