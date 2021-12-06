@@ -7,6 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity(repositoryClass=EpisodeRepository::class)
+ * @Assert\EnableAutoMapping()
  */
 class Episode
 {
