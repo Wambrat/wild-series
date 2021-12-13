@@ -2300,6 +2300,7 @@ class EpisodeFixtures extends Fixture implements DependentFixtureInterface
           "seasonNumber"=> 2,
           "number"=> 22,
           "title"=> "The One with the Two Parties",
+          'synopsis' => " Rachel comes back from her sister's college graduation ceremony pissed at her parents for ruining it with their incessant rampage about the divorce. Concerned that her parents would not get along during her birthday party as well, she contemplates not inviting them to the party at all, though Monica has invited Rachel's mother, Sandra. Things quickly go awry when Rachel's father, Dr. Green, unexpectedly arrives at the party right before Sandra does, prompting the gang to set up an impromptu second party at Chandler's and Joey's apartment to keep the hostile couple apart. The second party turns out to be more fun and livelier than what Monica has planned, which results in some guests (including Gunther) leaving for the second party with the help of Phoebe. The gang tries to segregate both Greens throughout the night, and Rachel alternates between the two parties. She ends up feeling depressed, lamenting about her unavoidable future without her parents being together in it. Chandler, having had the painful experience of his parents divorcing, then comforts her. Both Sandra and Dr. Green are successfully kept apart despite many close calls, with Joey kissing the former as the latter leaves at the end of the party.",
         ],
         [
           "serieName" => 'Friends',
@@ -2461,6 +2462,7 @@ class EpisodeFixtures extends Fixture implements DependentFixtureInterface
           "seasonNumber"=> 3,
           "number"=> 21,
           "title"=> "The One with a Chick and a Duck",
+          "synopsis"=> " Rachel comes back from her sister's college graduation ceremony pissed at her parents for ruining it with their incessant rampage about the divorce. Concerned that her parents would not get along during her birthday party as well, she contemplates not inviting them to the party at all, though Monica has invited Rachel's mother, Sandra. Things quickly go awry when Rachel's father, Dr. Green, unexpectedly arrives at the party right before Sandra does, prompting the gang to set up an impromptu second party at Chandlers and Joey's apartment to keep the hostile couple apart. The second party turns out to be more fun and livelier than what Monica has planned, which results in some guests (including Gunther) leaving for the second party with the help of Phoebe. The gang tries to segregate both Greens throughout the night, and Rachel alternates between the two parties. She ends up feeling depressed, lamenting about her unavoidable future without her parents being together in it. Chandler, having had the painful experience of his parents divorcing, then comforts her. Both Sandra and Dr. Green are successfully kept apart despite many close calls, with Joey kissing the former as the latter leaves at the end of the party."
         ],
         [
           "serieName" => 'Friends',
@@ -2495,145 +2497,338 @@ class EpisodeFixtures extends Fixture implements DependentFixtureInterface
           "seasonNumber"=> 4,
           "number"=> 1,
           "title"=> "The One with the Jellyfish",
+          "synopsis" => " Ross breaks up with Bonnie in order to get back with Rachel, who prompts him to first read her 18-page letter discussing their relationship and previous break-up. Ross falls asleep while reading the letter, and unwittingly agrees to take full responsibility for their break-up later on. Ross and Rachel then break up again after he refuses to take all the blame for their previous problems (as have been stated in the letter) and insists they were on a break. Joey and Chandler come to Monica's rescue after she is stung by a jellyfish - one of them has to pee on her leg to relieve the pain, as suggested by Joey who has learnt it from watching the Discovery Channel. Phoebe goes to see her sister, Ursula, who reveals that she already knows the truth about their birth mother."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 2,
           "title"=> "The One with the Cat",
+          "synopsis" => "Monica runs into Chip Matthews, Rachel's high school prom date, and is thrilled when he asks her out, though it causes tensions between her and Rachel (and ultimately Ross). Monica quickly realises that Chip has never matured beyond high school and dumps him. Chandler forces Joey to sell the entertainment unit that the latter had built after the former keeps ripping his work suit accidentally whenever he brushes against the unit while coming out from his room. A prospective buyer traps Joey inside the unit, then steals most of the guys' furnitures. Phoebe is overjoyed to find a cat that she believes contains her adoptive mother's (Lily's) spirit."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 3,
           "title"=> "The One with the Cuffs",
+          "synopsis" => "Joey is enticed when a door-to-door encyclopedia salesman shows up at his apartment, since he has always felt left out whenever the gang has intellectual conversations. However, Joey can only afford to buy the sample volume and becomes knowledgeable only on subjects that start with the letter V. Monica caters a party for her mother, but the mini-quiches are effectively ruined when one of her false fingernails gets lost in one. Judy then reveals that she expected Monica to mess up so she bought frozen lasagnas as back-up. Monica, upset that her mother has never had faith in her, whips up delicious dishes at the last minute to prove her mother wrong. Judy ultimately gets impressed and the two reconcile. Meanwhile, Chandler begins dating Rachel's boss, Joanna, again but lands in a sticky situation when Joanna handcuffs him inside her office, then leaves for a meeting that gets delayed, stranding him for hours. Rachel is furious when she sneaks into Joanna's office (having been under the impression that Joanna has been listing names of employees that would get a Christmas bonus) to find Chandler stuck there pantsless, since he has promised to end the relationship many times but never does."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 4,
           "title"=> "The One with the Ballroom Dancing",
+          "synopsis" => "Phoebe struggles to remain professional with an attractive client. When she finally confesses her feelings to him, he reciprocates and the two start making out. Phoebe's boss then walks in on them, informs her the man is married, and then fires her for “being a whore”. Chandler hits a snag whenever he tries to revoke his gym membership due to pressure from the assertive staff, so he enlists Ross's help. However, he still fails to quit and Ross ends up joining the gym. Both men are then revealed to have serious problems in being assertive whenever an attractive lady is involved. Joey confronts Mr. Treeger after he makes Rachel cry. Mr. Treeger responds by threatening to report Monica for illegally subletting her grandmother's apartment to Rachel. In order to save the girls from eviction, Joey reluctantly agrees to help Mr. Treeger practice ballroom dancing in order to help the latter impress his crush at an upcoming social event."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 5,
           "title"=> "The One with Joey's New Girlfriend",
+          "synopsis" => "Phoebe has a cold that she thinks improves her singing voice, only to be frustrated when her sexy phlegm disappears. She then desperately tries to catch a cold again from multiple sources, including Monica and Gunther, in order to get her “sexy” voice back. Ross attempts to make Rachel jealous by dating Amanda, a beautiful woman with a child Ben's age, only to discover that she just acknowledges him as a babysitter to her child. As payback, Rachel also starts dating a cute college guy, Josh, who turns out to be immature and constantly stealing from her and the gang. Meanwhile, Chandler falls in love with Joey's new actress girlfriend, Kathy, much to the former's dismay."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 6,
           "title"=> "The One with the Dirty Girl",
+          "synopsis" => "Phoebe helps Monica cater a funeral, but the merry widow intimidates Monica to avoid paying. Phoebe then takes charge and demands the widow to settle the bill. Both girls ultimately decide to start their own catering business. Chandler reluctantly helps Joey find Kathy a birthday present better than the one he bought for her (a limited edition book from Kathy's childhood), ultimately sacrificing his gift to substitute for Joey's tacky one (a dual-functioning pen). Ross, revolted by his beautiful new girlfriend's filthy apartment, finally calls it quits. Rachel is determined to complete a crossword without help. Kathy later thanks Chandler for the book, realising that he bought it instead of Joey."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 7,
           "title"=> "The One Where Chandler Crosses the Line",
+          "synopsis" => "Ross starts playing the keyboards again after much prompting from Phoebe. His musical compositions leave the gang aghast, except for Phoebe who thinks they are brilliant. Chandler's feelings towards Kathy reach a breaking point after they kiss. Guilt-ridden, he eventually tells Joey the truth and then vainly tries to fix things but to no avail. Joey is outraged by Chandler's betrayal even though he is dating another woman at the same time."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 8,
           "title"=> "The One with Chandler in a Box",
+          "synopsis" => "During Thanksgiving dinner, Joey punishes Chandler for kissing Kathy in the previous episode by sentencing him to a time out inside a crate for the same duration as when Joey was stuck in the entertainment unit earlier this season. Joey finally relents when he witnesses Kathy breaking up with Chandler, who is still inside the crate and resists responding in spite of the situation. Joey ultimately gives Chandler and Kathy his approval and prompts the former to chase after the latter. Ross is shocked to learn that Rachel exchanges every gift she is given, but she shows Ross that she keeps things that matter. Monica becomes infatuated with Richard's son, Timothy, who is also an eye doctor, when she has an appointment with him after accidentally getting some ice into her eye. Monica and Timothy later kiss, though the former reveals that the kiss reminds her of Richard and both get disgusted soon afterwards."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 9,
           "title"=> "The One Where They're Going to Party!",
+          "synopsis" => "Monica and Phoebe buy a tacky van for their new catering business, but plans are upended when Monica is offered the head chef job at “Alessandro's”, a restaurant that she recently trashed in a review for a neighbourhood paper. Rachel applies for an assistant buyer job in another Bloomingdale's department, only to be sabotaged during the interview by her boss, Joanna, who wants to keep Rachel as her assistant. Rachel confronts Joanna, who then offers to make her an assistant buyer in her department. Unfortunately, Joanna meets an untimely end before Rachel's promotion takes effect. Ross and Chandler are excited when their friend Mike 'Gandalf' Ganderson is coming to town to party all night. When Gandalf cancels at the last minute, Joey says they can still have a great time, though the guys get beaten down before the night ends."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 10,
           "title"=> "The One with the Girl from Poughkeepsie",
+          "synopsis" => " Chandler's attempt to set Rachel up with someone from work gets out of hand when his colleagues start competing with one another, believing she only wants a fling. He then scares everyone off by saying Rachel wants a serious relationship. Monica's new staff at Alessandro's resent her for replacing their family member as the head chef, and constantly bully her at work. Upon heeding Chandlers advice, Monica hires Joey just so she can fake fire him in order to show her staff who is boss. When Joey gets lucrative tips from working at the restaurant, he refuses to give Monica a reason to fire him. However, when Joey truly sees the degree of cruelty and abuse Monica is being forced to endure, which almost makes her resign, he sticks to his part and Monica fires him in front of everyone. This is enough for Monica to acquire control over her colleagues who realize they could get fired too. Ross is torn between a pretty but overly-serious girl who lives nearby and a fun one who lives upstate, which requires him to commute long hours to meet. Phoebe writes a holiday song for her friends but has trouble rhyming their names with holiday-themed things."          
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 11,
           "title"=> "The One with Phoebe's Uterus",
+          "synopsis" => "Chandler has not had sex with his girlfriend, Kathy, ever since they got together due to the former's fear of not being able to “fill Joey's shoes”. Monica and Rachel then offer Chandler some advice on improving his bedroom performance, leading to Kathy expressing her endless gratitude to Monica. Ross lands Joey a job as a tour guide at the museum, which ultimately results in the latter's disappointment when he witnesses an existential class divide within the museum. His friendship with Ross becomes strained when the latter is not willing to sit with him in the lunch room due to their designation differences. Guilt-ridden by the lunch incident, Ross decides to make amends to Joey by rectifying the class divide in the museum the next day. Phoebe's brother, Frank Jr., and Alice have eloped and tried to conceive naturally many times, without any success. The couple then asks Phoebe to carry their baby. Phoebes birth mum decides to give her puppy to Phoebe for a few days to help the latter make her decision. Phoebe eventually decides to fulfil Frank Jr.'s and Alice's wishes."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 12,
           "title"=> "The One with the Embryos",
+          "synopsis" => "Rachel and Monica demand that Chandler and Joey get rid of their pet birds when the rooster starts to crow incessantly every morning before sunrise. The four of them also have an argument about who knows whom better, which results in Ross designing a trivia quiz with high stakes: if the men lose, they give up their pets, but if the women lose, they switch apartments with the men. The result comes down to a tie breaker, which the girls lose, thereby forcing them to move. Meanwhile, the embryos from Frank Jr. and Alice have been successfully implanted into Phoebe's uterus, leading to a tense wait that ultimately results in Phoebes pregnancy albeit much pressure from knowing that the chance of pregnancy is quite slim and the couple has invested all their life savings for the IVF."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 13,
           "title"=> "The One with Rachel's Crush",
+          "synopsis" => "Monica is determined to continue being 'the hostess' and strives to succeed despite having switched apartments with Chandler and Joey. Chandler is worried when Kathy and a fellow actor, Nick, get steamy on stage in a play, which leads to him unfairly accusing Kathy of cheating on him. When he later goes to her apartment to apologize, he discovers that Kathy has started sleeping with Nick, even though the latter two did not when Chandler confronted Kathy about her possible infidelity. Rachel is disgruntled after Bloomingdale's eliminates her department and “demotes” her to be a personal shopper in another department. However, her job attitude improves when she meets a handsome customer named Joshua. Having had no experience in asking a guy out, Rachel seeks advice from Joey and Phoebe, though her plan in asking Joshua out ultimately backfires on her when, according to her, she is not in the date that she has successfully asked for."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 14,
           "title"=> "The One with Joey's Dirty Day",
+          "synopsis" => "Chandler is depressed over his break-up with Kathy, leading to the girls intervening to help him get over the latter. One of the plans involves bringing Chandler to a strip club. However, the plan backfires when the girls inadvertently sideline him. With no other options, Rachel asks for Ross's help after she accidentally becomes double-booked with Joshua and her boss, with the former inviting her to an inaugural club opening and the latter wanting her to accompany his niece, Emily, to an opera concert. Much to Ross's chagrin, he agrees to meet Emily and take her to the opera concert. In the end, Ross and Emily hit it off and ultimately end up spending the weekend together at a Bed & Breakfast in Vermont, whereas Rachel is unable to enter the club that she has been invited to due to a mix-up and ends up not meeting Joshua at all. Meanwhile, Joey arrives home with an unpleasant odor following a three-day fishing trip with his father. He oversleeps and rushes to a movie set without showering. He later sneaks into Charlton Heston's dressing room to take a shower and gets caught doing so by the latter."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 15,
           "title"=> "The One with All the Rugby",
+          "synopsis" => "Ross risks life and limb in his desperate attempt to prove to Emily how tough he is by playing an aggressive game of rugby with her athletic British friends. Monica becomes obsessed with a wall switch in her current (previously Chandler's and Joey's) apartment which appears to have no function. She resorts to every possible measure in trying to determine the switch's origin, but to no avail, so she eventually gives up. Unbeknownst to her, the switch actually controls the television in her previous (now Chandler's and Joey's) apartment. Chandler runs into Janice during a manicure session with Rachel and goes to extreme measures to avoid her, which include telling her that he is being transferred to Yemen for work."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 16,
           "title"=> "The One with the Fake Party",
+          "synopsis" => "Phoebe's pregnancy causes her to crave meat despite being a devout vegetarian. She seeks Joey for advice and he decides to sacrifice his meat consumption in order to balance out the amount of meat that Phoebe eats. Meanwhile, Ross wants to spend as much time with Emily as possible before she returns to London. However, Rachel throws a fake surprise goodbye party for Emily as a ruse to invite Joshua, thereby disrupting Ross's more intimate farewell plans."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 17,
           "title"=> "The One with the Free Porn",
+          "synopsis" => "Phoebe is shocked when she learns that she is expecting triplets and wants to find ways to help financially support her brother and sister-in-law. She ultimately decides to start a massage/taxi business with Frank Jr. using the van that the former and Monica were once going to use for a catering business. Monica persuades Ross to pursue Emily to the airport. Ross arrives just as Emily is boarding and says that he loves her. However, she merely thanks him and leaves. She later calls him to apologise for her lukewarm reaction and says it was because there is someone else. Monica believes that Emily reciprocates Ross's love and convinces him to go to London to profess his love again. Ross flies off, unaware that Emily has returned to New York to declare her love for him. The couple finally connect by phone. Chandler and Joey are delighted to discover a free pornography channel on their TV and become addicted when they refuse to turn it off."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 18,
           "title"=> "The One with Rachel's New Dress",
+          "synopsis" => "Frank Jr. and Alice ask Phoebe to name one of their unborn triplets, which leads to Joey and Chandler competing to get her to choose their names. In the process, Joey argues that Chandler is a sissy name, prompting Chandler to consider changing his full name, though he has ulterior motives. Ross becomes paranoid when Emily and Carol's wife, Susan, spend time together in London, fearing that Susan would once again steal someone he loves."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 19,
           "title"=> "The One with All the Haste",
+          "synopsis" => "Monica and Rachel resort to desperate measures in order to win their apartment back from Joey and Chandler. These include bribing the guys with Knicks tickets and challenging them to another game. The girls lose the tickets and the game, but eventually switch apartments whilst Joey and Chandler are at the game. Monica and Rachel also kiss for a full minute (offscreen) to prevent Joey and Chandler from complaining. Meanwhile, Ross is disheartened with Emily returning to London again, so they spontaneously decide to get married."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 20,
           "title"=> "The One with All the Wedding Dresses",
+          "synopsis" => "Chandler, frustrated by Joey's loud snoring, takes him to a sleep clinic, where he meets an attractive woman with her own sleeping issues. Monica and Phoebe pick up Emily's wedding gown at the bridal shop. The former tries it on and refuses to take it off. She even resorts to wearing the gown at home while doing house chores. Phoebe then shows up in a rented wedding dress, and both girls pathetically role-play as brides throughout the day. Rachel, struggling to accept Ross's and Emily's engagement, shocks Joshua by suggesting that they should get married. Rachel then leaves Joshua a voice message explaining that she was just upset about the engagement. She never expects to see him again afterwards. Monica and Phoebe then try cheering Rachel up by getting her to wear her old wedding dress, only for Joshua to unexpectedly show up. Seeing her in a bridal gown, he tacitly breaks up with her by running off for good."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 21,
           "title"=> "The One with the Invitation",
+          "synopsis" => "A pregnant Phoebe is frustrated that she is unable to attend Ross's and Emily's wedding in London. Meanwhile, Ross surprises Emily by inviting Rachel, causing him to reminisce about their time together. Rachel ponders long and hard about the invitation while also reminiscing her past relationship with Ross. She then concludes that it will be too heart-breaking to attend the wedding and ultimately decides to stay with Phoebe in New York."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 22,
           "title"=> "The One with the Worst Best Man Ever",
+          "synopsis" => "Rachel and Monica throw a baby shower for Phoebe, who is experiencing extreme mood swings and growing depressed about having to give up the babies after they are born. Meanwhile, Ross chooses Joey over Chandler to be his best man, but Joey accidentally loses the wedding ring after throwing a bachelor party for Ross, which features a stripper. The men then discover that the duck had eaten the ring, and take it to the vet. The ring is successfully retrieved in the end, and Ross ultimately decides to make both Chandler and Joey his best men."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 23,
           "title"=> "The One with Ross' Wedding (part 1)",
+          "synopsis" => "Everyone except Rachel and Phoebe fly to London for Ross's and Emily's wedding. Joey embarrasses Chandler while sightseeing in London. Ross and Emily are shocked that their wedding venue is undergoing an early demolition. Monica suggests postponing the wedding, infuriating Ross. Back in New York, Phoebe sheds light on Rachel about the latter still loving Ross, prompting Rachel to head to London and stop the wedding by confessing to Ross. Later, Ross and Monica surprise Emily by transforming the partially-demolished church into a suitable venue. Joey becomes homesick but a bridesmaid cheers him up. Phoebe repeatedly calls London to get the gang to stop Rachel. After seeing Ross and Emily together, Rachel is unable to tell Ross the truth. Monica and Chandler sleep together, hiding it from the others. At the altar, Ross says Rachel's name instead of Emily's."
         ],
         [
           "serieName" => 'Friends',
           "seasonNumber"=> 4,
           "number"=> 24,
           "title"=> "The One with Ross' Wedding (part 2)",
+          "synopsis" => "Everyone except Rachel and Phoebe fly to London for Ross's and Emily's wedding. Joey embarrasses Chandler while sightseeing in London. Ross and Emily are shocked that their wedding venue is undergoing an early demolition. Monica suggests postponing the wedding, infuriating Ross. Back in New York, Phoebe sheds light on Rachel about the latter still loving Ross, prompting Rachel to head to London and stop the wedding by confessing to Ross. Later, Ross and Monica surprise Emily by transforming the partially-demolished church into a suitable venue. Joey becomes homesick but a bridesmaid cheers him up. Phoebe repeatedly calls London to get the gang to stop Rachel. After seeing Ross and Emily together, Rachel is unable to tell Ross the truth. Monica and Chandler sleep together, hiding it from the others. At the altar, Ross says Rachel's name instead of Emily's."
         ],
+        [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 1,
+            "title"=> "The One After Ross Says Rachel",
+            "synopsis" => "After Ross mistakenly says Rachel's name instead of Emily's at the altar, she runs off and goes into hiding. Monica and Chandler, desperate to hook up again, are unable to find a suitable place. Rachel debates whether she should confront Ross about her feelings. Ross goes to the airport hoping Emily will show up so they can go on their honeymoon. He runs into Rachel who is on standby for a flight home. When it appears Emily is not coming, Ross persuades Rachel to go with him instead. Emily shows up at the airport, but seeing Rachel getting on the plane, she runs off again with Ross chasing after her. Rachel, waiting for Ross to board the plane, ends up going to Greece alone."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 2,
+            "title"=> "The One with All the Kissing",
+            "synopsis" => "Rachel returns from Greece, telling Ross she had a great time but is actually livid that he abandoned her on the plane. Ross attempts to reconcile with Emily who refuses to speak to him. Rachel wants Monica to make all her romance decisions, but ultimately ignores her. Once back home, Monica and Chandler are caught kissing, so Chandler kisses all the girls to cover up their budding relationship. Phoebe feels left out when the other friends talk non-stop about their London trip. Feeling guilty over this, the gang plan a weekend trip to Atlantic City, but just as they are about to leave, Phoebe's water breaks, so instead they head to the hospital."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 3,
+            "title"=> "The One Hundredth",
+            "synopsis" => "In an attempt to get over Ross, Rachel asks out two male nurses for her and Monica. This causes friction between Monica and Chandler, with Chandler reacting as if he does not care. In the delivery room, Phoebe frets about her Fonzie-obsessed doctor. Joey, who they think is only experiencing sympathy pain from Phoebe's labor, is diagnosed with kidney stones and admitted to the hospital. After giving birth to Frank and Alice's triplets: Frank Jr. Jr, Leslie, and Chandler, Phoebe has difficulty giving them up."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 5,
+            "title"=> "The One Where Phoebe Hates PBS",
+            "synopsis" => "Chandler starts behaving rather arrogantly after learning Monica thinks he is the best sex she has ever had. Phoebe does her best to find a selfless good deed. Ross finally contacts Emily to try and work things out. She agrees to come to New York, but only if Ross agrees never to see Rachel. Joey lands a job on a PBS telethon, much to Phoebe's disapproval, who believes there is no such thing as a selfless good deed."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 5,
+            "title"=> "The One with the Kips",
+            "synopsis" => "Ross tells Rachel that Emily does not want him to see her anymore. Rachel then worries she will be phased out of the group entirely, much like Chandler's old roommate, Kip, and seeks advice from Phoebe. Monica and Chandler sneak away for a weekend together and end up fighting. Joey eventually figures out the truth about their relationship, though they swear him to secrecy."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 6,
+            "title"=> "The One with the Yeti",
+            "synopsis" => "Phoebe's mother sends her a fur coat, causing her to rethink her views. Emily's demands on Ross become more unreasonable, annoying his friends, and causing him to make a huge decision about his marriage. Monica and Rachel encounter what they think is a yeti man in the storage room leading to them fogging him with bug spray. Joey later explains that they fogged Danny, who just moved into their building. Rachel and Monica go to his apartment to apologize for fogging him, though he brushes them off."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 7,
+            "title"=> "The One Where Ross Moves In",
+            "synopsis" => "Rachel tries acting aloof with Danny, despite liking him. Phoebe begins dating Larry, a health inspector, but the friends are annoyed when he shuts down all their favorite restaurants after eating there. When Emily's cousin evicts Ross from the apartment he sublets to him, Joey and Chandler invite him to move in with them; his personal habits soon prove annoying."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 8,
+            "title"=> "The One with All the Thanksgivings",
+            "synopsis" => "Monica cooks Thanksgiving dinner. After, everyone share stories of their worst-ever Thanksgivings: Chandler learned of his parents' divorce; Joey got a raw turkey stuck on his head; newly-thin, teen-aged Monica accidentally cut off the tip of Chandler's toe with a sharp knife after he called her fat the previous year."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 9,
+            "title"=> "The One with Ross's Sandwich",
+            "synopsis" =>"Phoebe takes a literature course and regrets bringing Rachel, who does not take the class seriously. Joey tires of covering up Monica and Chandler's secret relationship. After creating a big fuss when Ross discovers that someone at work ate his sandwich, he is forced to take time off from work to deal with his anger issues after his marriage ends. Monica and Chandler silently beg Joey to maintain their secret after the other friends notice strange goings-on and think Joey is a pervert. Joey agrees but only by claiming that all the odd behavior is because he and Monica slept together in London, humiliating Monica."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 10,
+            "title"=> "The One with the Inappropriate Sister",
+            "synopsis" =>"During his forced time off from work, a bored Ross encourages Joey to write his own screenplay, ultimately causing friction between Chandler and Ross. Phoebe becomes overly aggressive collecting money for the poor in the run-up to Christmas. Monica sets Rachel up on a date with Danny, but Rachel quickly loses interest after Danny and his sister act overly affectionate with one another."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 11,
+            "title"=> "The One with All the Resolutions",
+            "synopsis" =>" The gang make New Year resolutions: Rachel promises to stop gossiping; Monica tries to take more pictures of the group and be less fastidious; Phoebe wants to pilot a commercial aircraft; Joey wants to learn the guitar; Chandler must stop making jokes; and Ross wants to try something new each day. Phoebe's attempt to teach Joey the guitar ends badly. Ross encounters a problems when he wears a new pair of leather pants on a first date. Rachel receives a shock when she picks up the phone and overhears a conversation between Monica and Chandler."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 12,
+            "title"=>"The One with Chandler's Work Laugh",
+            "synopsis" => "Monica is dismayed by how Chandler kisses up to his boss at work. Rachel tries to get Monica to confess her secret about Chandler, but Monica is unwilling to confide anything. Ross learns Emily is engaged again, and has a one-night stand with someone the group is all too familiar with, Janice. Later, Janice breaks up with Ross, unable to stand his perpetual whining. Ross asks Chandler to forgive him for sleeping with his ex, believing it breaks a friendship rule. Chandler is amused, but realizes he can leverage that in case Ross becomes upset when he eventually finds out about him and Monica."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 13,
+            "title"=> "The One with Joey's Bag",
+            "synopsis" => "Phoebe's grandmother dies, and she is shocked when her father, Frank, comes to the funeral. Wanting to know more about him, she arranges an encounter without revealing her identity. Joey wants to look stylish for an upcoming audition, so Rachel helps out, styling him with a man's bag as an accessory. Joey loves the bag, but everyone else considers it a purse. Monica is upset that Chandler dislikes her massages, which he finds extremely painful."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 14,
+            "title"=> "The One Where Everybody Finds Out",
+            "synopsis" => "Ross applies for Ugly Naked Guy's apartment when he moves out, only to find there is fierce competition. While viewing the apartment with Ross and Rachel, Phoebe happens to see Monica and Chandler through the window, having sex. Joey is relieved that everyone except Ross finally knows and he no longer has to pretend, but Rachel and Phoebe want to have some fun by forcing them into confessing. Rachel suggests Ross strike up an acquaintance with Ugly Naked Guy by finding similar interests to win his apartment, causing Ross to employ an extreme method. Chandler and Monica finally confess they love each other, but want to keep it secret from Ross a while longer...but Ross soon finds out, causing another emotional outburst in front of his boss who just cleared him to return to work."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 15,
+            "title"=> "The One with the Girl Who Hits Joey",
+            "synopsis" => "Ross is initially furious upon learning about Chandler and Monica, but quickly comes round when he learns they are serious about each other. Joey dates a girl (Soleil Moon Frye) who likes punching him. Ross gets off on the wrong foot with his new neighbors when he reasonably declines contributing a large sum towards the retiring superintendent's retirement party. Chandler and Monica have problems with their relationship after everyone jokes about marriage. Monica is upset that Chandler refuses to consider marriage, and he becomes so worried about losing her that he hastily proposes. Monica turns him down, saying she only wants him to be open to getting married one day, and that they are not ready yet."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 16,
+            "title"=> "The One with the Cop",
+            "synopsis" => "Phoebe finds a police badge at the coffeehouse and has fun pretending to be a cop until she pulls it on the owner, a cop named Gary. He later asks her out for dinner. Ross buys a new couch, but refuses to pay the huge delivery charge. Ross soon wishes he had paid the fee as he and Rachel struggle to get the couch up to his apartment. Joey is upset after having a romantic dream about Monica. However, Monica assures him it is only because he wants a serious relationship similar to Monica and Chandler's."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 17,
+            "title"=> "The One with Rachel's Inadvertent Kiss",
+            "synopsis" => " Rachel interviews with Ralph Lauren and accidentally kisses her interviewer and prospective boss Mr. Zelner. Monica wants to prove that she and Chandler are a hotter couple than Phoebe and her new boyfriend, Gary. Joey flirts with a girl who lives across the street in Ross' building. When he goes to meet her, he cannot find her apartment and continually ends up at Ross' door, having miscalculated the floor number. Eventually Monica helps him find the apartment only to find Ross in the girls apartment (with whom the girl met Ross earlier and goes out with him)."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 18,
+            "title"=> "The One Where Rachel Smokes",
+            "synopsis" => " Rachel attempts smoking to feel more included at work with her boss and co-worker. Joey auditions for a soup commercial with Ben playing his son. When the director pairs Ben with another father, Joey is left in the uncomfortable position of competing with his friend's son. Monica and Phoebe plan Rachel's birthday party, but when Monica takes over, leaving Phoebe in charge of only cups and ice, Phoebe goes all out."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 19,
+            "title"=> "The One Where Ross Can't Flirt",
+            "synopsis" => " Rachel secretly helps out Ross after he botches flirting with the pizza delivery girl. Joey invites his grandmother over to watch his role on Law & Order but when his part has been cut, he quickly improvises his own two-minute role and sneaks in the video for everyone to watch. Monica asks Phoebe for a pair of earrings she loaned her, but Phoebe lent them to Rachel, who lost one."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 20,
+            "title"=> "The One with the Ride-Along",
+            "synopsis" => "The boys go on a ride-along with Phoebe's cop boyfriend, Gary. Mistaking a car backfiring for the sound of gunshots, Joey attempts to protect his meatball sandwich. Chandler then thinks Joey cares more about Ross than him. Meanwhile, while borrowing margarita ingredients from Ross' apartment, Rachel overhears Emily leaving a message saying she is having doubts about going through with her wedding and wants Ross to consider them getting back together. When Rachel accidentally deletes the message, she agonizes over telling Ross."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 21,
+            "title"=>"The One with the Ball",
+            "synopsis" => " Phoebe freaks out after learning Gary is planning to ask her to move in with him, which she is not ready for. Phoebe reluctantly agrees to move in, however the relationship quickly ends when Gary shoots a bird tweeting outside the bedroom window. Rachel buys a hairless Sphynx cat for $1,000 but quickly regrets her purchase when everyone mocks it and the cat continually hisses at and scratches her. She eventually unloads the creature on Gunther, making a profit. Ross and Joey pass time by tossing a ball back and forth, and subsequently try to see how long they can go without dropping the ball. Monica joins in, then Chandler, who is called a 'Dropper', joins in."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 22,
+            "title"=> "The One with Joey's Big Break",
+            "synopsis" => "Joey lands a role in an independent movie, then borrows Phoebe's taxicab to drive to the Las Vegas location. Chandler rides along, but learns that Joey will not get paid unless the movie is successful. He remarks that he does not think the movie will be Joey's big break. Furious, Joey kicks Chandler out, stranding him on the George Washington Bridge."
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 23,
+            "title"=> "The One in Vegas (part 1)",
+            "synopsis" => "Monica has lunch with Richard but does not tell Chandler, who eventually finds out, ruining their anniversary. The gang goes to Las Vegas to visit Joey. Monica, Chandler, and Phoebe find him working at Caesar's Palace while his movie is shut down. Ross sees Rachel naked through his apartment window, mistaking it as an invitation to the physical act of love. On the plane to Vegas, Ross and Rachel needle each other; he draws a mustache on her with a marker pen while she is asleep. In Vegas, Ross and Rachel get drunk. Joey discovers his identical hand twin that he believes is a money-making opportunity to fund his movie. Phoebe feuds with a slots lurker and gets ejected from the casino, though she returns as Regina Phalange. Chandler and Monica decide to get married. At the wedding chapel, Ross and Rachel drunkenly stumble out of the chapel ahead of them."
+            
+          ],
+          [
+            "serieName" => 'Friends',
+            "seasonNumber"=> 5,
+            "number"=> 24,
+            "title"=> "The One in Vegas (part 2)",
+            "synopsis" => "Monica has lunch with Richard but does not tell Chandler, who eventually finds out, ruining their anniversary. The gang goes to Las Vegas to visit Joey. Monica, Chandler, and Phoebe find him working at Caesar's Palace while his movie is shut down. Ross sees Rachel naked through his apartment window, mistaking it as an invitation to the physical act of love. On the plane to Vegas, Ross and Rachel needle each other; he draws a mustache on her with a marker pen while she is asleep. In Vegas, Ross and Rachel get drunk. Joey discovers his identical hand twin that he believes is a money-making opportunity to fund his movie. Phoebe feuds with a slots lurker and gets ejected from the casino, though she returns as Regina Phalange. Chandler and Monica decide to get married. At the wedding chapel, Ross and Rachel drunkenly stumble out of the chapel ahead of them."
+          ]
     ];
     public function load(ObjectManager $manager): void
     {
