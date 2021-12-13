@@ -66,7 +66,15 @@ class ProgramFixtures extends Fixture implements DependentFixtureInterface
             'year' => 2007,
             'country' => 'United-States',
             'category' => 'Comedy'
-        ]    
+        ],
+        [
+            'title' => "Friends",
+            'summary' => "Monica Geller, une jeune cuisinière d'environ 25 ans, vit dans un appartement situé à Manhattan, dans Greenwich Village. Un jour, son amie d'enfance, Rachel Green, qu'elle n'avait plus vue depuis des années, lui rend visite après avoir quitté son fiancé à l'autel le jour de leur mariage. Rachel devient alors la nouvelle colocataire de Monica et s’intègre sans problème à son groupe d'amis, composé de Phoebe Buffay (l'ancienne colocataire de Monica), Ross Geller (le frère de Monica, qui est secrètement amoureux de Rachel depuis le lycée), Chandler Bing (qui est le meilleur ami de Ross depuis l'université) et Joey Tribbiani (le colocataire actuel de Chandler). Ces deux derniers vivent dans l'appartement juste en face de celui de Monica, sur le même palier. La série raconte la vie quotidienne de ces six amis, ainsi que l'évolution de leur vie professionnelle et affective pendant dix ans. ",
+            'poster' => "https://www.google.com/search?channel=fs&client=ubuntu&q=friends",
+            'year' => 1994,
+            'country' => 'United-States',
+            'category' => 'Comedy'
+        ]
     ];
     public function load(ObjectManager $manager): void
     {

@@ -6,10 +6,16 @@ use App\Repository\ProgramRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 /**
  * @ORM\Entity(repositoryClass=ProgramRepository::class)
  * @Assert\EnableAutoMapping()
+ * @UniqueEntity(
+ *      "title",
+ *      message="This port is already in use on that host."
+ * )
  */
 class Program
 {
@@ -21,7 +27,12 @@ class Program
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, unique=true)
+     * @Assert\Type("string")
+     * @Assert\Regex(
+     *      pattern = "/^Plus belle la vie/",
+     *      match = false
+     * )
      */
     private $title;
 
@@ -51,11 +62,16 @@ class Program
      */
     private $year;
 
+    /**
+     * @ORM\ManyToMany(targetEntity=Actor::class, mappedBy="programs")
+     */
+    private $actors;
 
     public function __construct()
     {
-        $this->categories = new ArrayCollection();
+        $this->actors = new ArrayCollection();
     }
+
 
     public function getId(): ?int
     {
@@ -130,6 +146,33 @@ class Program
     public function setYear(int $year): self
     {
         $this->year = $year;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Actor[]
+     */
+    public function getActors(): Collection
+    {
+        return $this->actors;
+    }
+
+    public function addActor(Actor $actor): self
+    {
+        if (!$this->actors->contains($actor)) {
+            $this->actors[] = $actor;
+            $actor->addProgram($this);
+        }
+
+        return $this;
+    }
+
+    public function removeActor(Actor $actor): self
+    {
+        if ($this->actors->removeElement($actor)) {
+            $actor->removeProgram($this);
+        }
 
         return $this;
     }
