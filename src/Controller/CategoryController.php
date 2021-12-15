@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Category;
 use App\Entity\Program;
 use App\Form\CategoryType;
+use App\Service\Slugify;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -38,7 +39,7 @@ class CategoryController extends AbstractController
 
      */
 
-    public function new(Request $request) : Response
+    public function new(Request $request, Slugify $slugify) : Response
 
     {
 
@@ -57,8 +58,9 @@ class CategoryController extends AbstractController
          // Was the form submitted ?
  
          if ($form->isSubmitted() && $form->isValid()) {
-            // Deal with the submitted data
-
+            // slug 
+            $slug = $slugify->generate($category->getName());
+            $category->setSlug($slug);
             // Get the Entity Manager
 
             $entityManager = $this->getDoctrine()->getManager();

@@ -7,6 +7,7 @@ use App\Entity\Episode;
 use App\Entity\Program;
 use App\Entity\Season;
 use App\Form\ProgramType;
+use App\Service\Slugify;
 use Doctrine\ORM\Mapping\Id;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
@@ -54,7 +55,7 @@ class ProgramController extends AbstractController
 
      */
 
-    public function new(Request $request) : Response
+    public function new(Request $request, Slugify $slugify) : Response
 
     {
 
@@ -73,7 +74,10 @@ class ProgramController extends AbstractController
          // Was the form submitted ?
  
          if ($form->isSubmitted() && $form->isValid()) {
-            // Deal with the submitted data
+            // slug 
+            
+            $slug = $slugify->generate($program->getTitle());
+            $program->setSlug($slug);
 
             // Get the Entity Manager
 

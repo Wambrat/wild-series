@@ -92,4 +92,16 @@ class Episode
 
         return $this;
     }
+
+    public function getSlug(): ?string
+    {
+        return $this->Slug;
+    }
+
+    public function setSlug(string $Slug): self
+    {
+        $this->Slug = $Slug;
+
+        return $this;
+    }
 }

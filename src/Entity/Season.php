@@ -47,6 +47,7 @@ class Season
      */
     private $episodes;
 
+
     public function __construct()
     {
         $this->episodes = new ArrayCollection();
@@ -131,6 +132,18 @@ class Season
                 $episode->setSeason(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getSlug(): ?string
+    {
+        return $this->Slug;
+    }
+
+    public function setSlug(string $Slug): self
+    {
+        $this->Slug = $Slug;
 
         return $this;
     }

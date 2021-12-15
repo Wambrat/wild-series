@@ -4,6 +4,7 @@ namespace App\DataFixtures;
 
 use App\Entity\Actor;
 use App\Entity\Program;
+use App\Service\Slugify;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 use Doctrine\Common\DataFixtures\DependentFixtureInterface;
@@ -70,8 +71,10 @@ class ActorFixtures extends Fixture implements DependentFixtureInterface
             $program = $manager->getRepository(Program::class)
                 ->findOneBy(array("title" => $actor['programTitle']));  
             $actorManager = new Actor();
+            $slugify = new Slugify;
             $actorManager->setName($actor['name']);
             $actorManager->addProgram($program);
+            $actorManager->setSlug($slugify->generate($actor['name']));
             $manager->persist($actorManager);
         }
 
