@@ -5,6 +5,7 @@ namespace App\DataFixtures;
 use App\Entity\Episode;
 use App\Entity\Program;
 use App\Entity\Season;
+use App\Service\Slugify;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\DataFixtures\DependentFixtureInterface;
 use Doctrine\Persistence\ObjectManager;
@@ -2832,7 +2833,9 @@ class EpisodeFixtures extends Fixture implements DependentFixtureInterface
     ];
     public function load(ObjectManager $manager): void
     {
-        foreach (self::EPISODES as $key => $episode) {  
+        foreach (self::EPISODES as $key => $episode) { 
+            $slugify = new Slugify();
+ 
             $program = $manager
             ->getRepository(Program::class)
             ->findOneBy(array('title' => $episode['serieName']))
@@ -2842,13 +2845,14 @@ class EpisodeFixtures extends Fixture implements DependentFixtureInterface
                 ->getRepository(Season::class)
                 ->findOneBy(array('program_id' => $program->getId(), 'number' => $episode['seasonNumber']))
             ;
-            $seasonClass = new Episode();  
-            $seasonClass->setNumber($episode['number']);
-            $seasonClass->setSeason($season);
-            $seasonClass->setSynopsis($episode['synopsis']);
-            $seasonClass->setTitle($episode['title']);
+            $episodeClass = new Episode();  
+            $episodeClass->setNumber($episode['number']);
+            $episodeClass->setSeason($season);
+            $episodeClass->setSynopsis($episode['synopsis']);
+            $episodeClass->setTitle($episode['title']);
+            $episodeClass->setSlug($slugify->generate($episode['title']));
     
-            $manager->persist($seasonClass);
+            $manager->persist($episodeClass);
     
         }  
 

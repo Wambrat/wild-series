@@ -119,7 +119,7 @@ class ProgramController extends AbstractController
 
      *
 
-     * @Route("/{id<^[0-9]+$>}", name="show")
+     * @Route("/{slug}", name="show")
 
      * @return Response
 
@@ -139,8 +139,8 @@ class ProgramController extends AbstractController
     }
 
     /**
-     * @Route("/{programId}/season/{id<^[0-9]+$>}", name="show_season_show")
-     * @ParamConverter("programId", class="App\Entity\Program", options={"mapping": {"programId": "id"}})
+     * @Route("/{programSlug}/season/{id<^[0-9]+$>}", name="show_season_show")
+     * @ParamConverter("programSlug", class="App\Entity\Program", options={"mapping": {"programSlug": "slug"}})
      */
     public function season(Season $season): Response
     {
@@ -163,8 +163,8 @@ class ProgramController extends AbstractController
         ]);
     }
     /**
-     * @Route("/{programId}/season/{seasonId}/episode/{id<^[0-9]+$>}", name="show_season_show_episode_show")
-     * @ParamConverter("programId", class="App\Entity\Program", options={"mapping": {"programId": "id"}})
+     * @Route("/{programSlug}/season/{seasonId}/episode/{slug}", name="show_season_show_episode_show")
+     * @ParamConverter("programSlug", class="App\Entity\Program", options={"mapping": {"programSlug": "slug"}})
      * @ParamConverter("seasonId", class="App\Entity\Season", options={"mapping": {"seasonId": "id"}})
      */
     public function episode(Episode $episode): Response

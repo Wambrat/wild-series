@@ -1,8 +1,10 @@
 @import 'bootstrap';
 
 body {
-    background-color: red;
-}
+    background: linear-gradient(60deg,
+       blue, white, red);
+  }
+  
 
 nav img {
     width: 40px;

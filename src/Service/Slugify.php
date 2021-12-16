@@ -56,7 +56,7 @@ class Slugify
 
     public function removeAccent(string $str): string
     {
-        for ($i = 0; $i <= strlen($str) - 1; $i++) {
+        for ($i = 0; $i < strlen($str) - 1; $i++) {
             foreach (self::REMOVE_ACCENT as $key => $value) {
                 if (in_array($str[$i] . $str[$i + 1], $value)) {
                     $str = str_replace($str[$i] . $str[$i + 1], $key, $str);

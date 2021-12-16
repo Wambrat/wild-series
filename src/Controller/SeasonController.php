@@ -30,13 +30,15 @@ class SeasonController extends AbstractController
     /**
      * @Route("/new", name="season_new", methods={"GET", "POST"})
      */
-    public function new(Request $request, EntityManagerInterface $entityManager): Response
+    public function new(Request $request, EntityManagerInterface $entityManager, Slugify $slugify): Response
     {
         $season = new Season();
         $form = $this->createForm(SeasonType::class, $season);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+            $slug = $slugify->generate($season->getNumber());
+            $season->setSlug($slug);
             $entityManager->persist($season);
             $entityManager->flush();
 

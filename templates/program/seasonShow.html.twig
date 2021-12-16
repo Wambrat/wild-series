@@ -25,7 +25,7 @@
           </h2>
           <div id="flush-collapse{{ i }}" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
-                {{ episode.synopsis }} <a href="{{ path("program_show_season_show_episode_show", { programId: program.id, seasonId: season.id, id: episode.id}) }}">En savoir plus...</a>
+                {{ episode.synopsis }} <a href="{{ path("program_show_season_show_episode_show", { programSlug: program.slug, seasonId: season.id, slug: episode.slug}) }}">En savoir plus...</a>
             </div>
           </div>
         </div>
